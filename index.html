@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dahezi-hang {
+        background-color: #aaa;
+        display: flex;
+        height: 300px;
+        justify-content: flex-start;
+        /* justify-content: flex-end;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly; */
+
+        /* align-items: center; */
+        /* align-items: baseline; */
+        /* align-content: center; */
+        flex-wrap: wrap;
+        align-content: center;
+        /* align-content: space-around; */
+      }
+      .hezi {
+        padding: 20px;
+      }
+      /* .dahezi-hang > * {
+        flex-basis: 250px;
+      } */
+      .hezi1 {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 300px;
+      }
+      .hezi2 {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 300px;
+      }
+      .hezi3 {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 300px;
+      }
+      .hezi4 {
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 300px;
+        min-width: 0px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .dahezi-lie {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: #777;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+      }
+      .dahezi-lie > * {
+        flex-basis: 30px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0">
+    <div class="dahezi-hang">
+      <div class="hezi hezi1" style="background-color: rgb(215, 250, 232)">
+        容器1
+      </div>
+      <div class="hezi hezi2" style="background-color: rgb(214, 25, 25)">
+        容器2
+      </div>
+      <div class="hezi hezi3" style="background-color: rgb(125, 48, 224)">
+        容器3
+      </div>
+      <div class="hezi hezi4" style="background-color: rgb(37, 17, 221)">
+        容器4444444444444444444444444444444444444444444444444444444444444444444444444
+      </div>
+    </div>
+
+    <div class="dahezi-lie">
+      <div class="hezi hezi1" style="background-color: rgb(215, 250, 232)">
+        容器1
+      </div>
+      <div class="hezi hezi2" style="background-color: rgb(214, 25, 25)">
+        容器2
+      </div>
+      <div class="hezi hezi3" style="background-color: rgb(125, 48, 224)">
+        容器3
+      </div>
+    </div>
+  </body>
+</html>
